@@ -11,5 +11,5 @@
    <project path="device/realme/sm7125-common" name="device_realme_sm7125-common" remote="pixel-devices" revision="thirteen" />
     <project path="vendor/realme/RMX2061" name="vendor_realme_RMX2061" remote="pixel-devices-blobs" revision="thirteen" />
   <project path="vendor/realme/sm7125-common" name="vendor_realme_sm7125-common" remote="pixel-devices-blobs" revision="thirteen">
-    <project path="device/realme/RMX2061" name="crdroidandroid/android_device_realme_RMX2061" remote="pixel-devices" revision="thirteen" />
+    <project path="device/realme/RMX2061" name="crdroidandroid/android_device_realme_RMX2061" revision="thirteen" />
 </manifest>
