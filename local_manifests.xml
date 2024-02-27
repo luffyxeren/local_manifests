@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="pixel-devices"
-           fetch="https://github.com/PixelExperience-Devices"
-            />
+           fetch="https://github.com/PixelExperience-Devices"/>
 
    <remote name="pixel-devices-blobs"
-            fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
-             />
+            fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"/>
    <!-- Trees -->
     <project path="kernel/realme/sm7125" name="kernel_realme_sm7125" remote="pixel-devices" revision="thirteen" /> 
     <project path="vendor/realme/RMX2061" name="vendor_realme_RMX2061" remote="pixel-devices-blobs" revision="thirteen" />
