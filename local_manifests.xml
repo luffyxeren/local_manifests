@@ -13,7 +13,6 @@
     <project path="vendor/realme/RMX2061" name="vendor_realme_RMX2061" remote="pixel-devices-blobs" revision="thirteen" />
   <project path="vendor/realme/sm7125-common" name="vendor_realme_sm7125-common" remote="pixel-devices-blobs" revision="thirteen" />
     <project path="device/realme/RMX2061" name="crdroidandroid/android_device_realme_RMX2061" revision="13.0" />
-  <project path="kernel/realme/sm7125" name="crdroidandroid/android_kernel_realme_sm7125" revision="13.0" />
   <project path="device/realme/sm7125-common" name="crdroidandroid/android_device_realme_sm7125-common" revision="13.0" />
-  <project path="vendor/realme" name="crdroidandroid/android_vendor_realme_RMX2061" remote="crdroid-gitlab" revision="13.0" />
+  <project path="vendor/realme" name="crdroidandroid/android_vendor_realme_RMX2061" remote="crdroid-gitlab" />
 </manifest>
