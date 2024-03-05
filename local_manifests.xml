@@ -5,7 +5,8 @@
   <remote name="crdroidandroid"
          fetch="https://github.com/crdroidandroid/android_device_realme_sm7125-common" />
    <!-- Trees -->
-   <project path="kernel/realme/sm7125" name="kernel_realme_sm7125" remote="crdroidandroid" revision="13.0" />  
-   <project path="device/realme/sm7125-common" name="device_realme_sm7125-common" remote="crdroidandroid" revision="13.0" />
-   <project path="vendor/realme" name="android_vendor_realme_RMX2061" remote="crdroid-gitlab" revision="13.0" />
+   <project path="kernel/realme/sm7125" name="crdroidandroid/kernel_realme_sm7125" remote="crdroidandroid" revision="13.0" />  
+  <project path="device/realme/RMX2061" name="crdroidandroid/android_device_realme_RMX2061" revision="thirteen" />
+   <project path="device/realme/sm7125-common" name="crdroidandroid/device_realme_sm7125-common" remote="crdroidandroid" revision="13.0" />
+   <project path="vendor/realme" name="crdroidandroid/android_vendor_realme_RMX2061" remote="crdroid-gitlab" revision="13.0" />
 </manifest>
