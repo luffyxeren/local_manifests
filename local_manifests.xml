@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="pixel-devices"
-         fetch="https://github.com/PixelExperience-Devices" />
-  <remote name="pixel-devices-blobs"
-         fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
-   <!-- Trees -->
-   <project path="kernel/realme/sm7125" name="kernel_realme_sm7125" remote="pixel-devices" revision="thirteen" />  
-   <project path="device/realme/sm7125-common" name="device_realme_sm7125-common" remote="pixel-devices" revision="thirteen" />
-   <project path="vendor/realme/RMX2061" name="vendor_realme_RMX2061" remote="pixel-devices-blobs" revision="thirteen" />
-   <project path="vendor/realme/sm7125-common" name="vendor_realme_sm7125-common" remote="pixel-devices-blobs" revision="thirteen" />
-   <project path="device/realme/RMX2061" name="crdroidandroid/android_device_realme_RMX2061" revision="thirteen" />
+          
+        <remote name="gh" fetch="https://github.com" />
+          
+        <!-- Sync trees -->
+        <project path="device/realme/RMX2061" name="Sanjivns/device_realme_RMX2061" remote="gh" revision="los21" />
+
 </manifest>
